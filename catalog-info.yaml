@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: thin-cvs-notification-java-client
+  title: Thin Java Email Notification Library
+  description: A client library for the email notification API
+  tags:
+    - java
+    - spring
+    - email
+    - notifications
+    - client
+    - library
+  links:
+    - url: https://github.com/marvin-corea-cvshealth/thin-cvs-notification-java-client
+      title: Github Repo
+      icon: github
+    - url: http://www.google.com
+      title: Admin Panel 
+      icon: code
+  annotations:
+    github.com/project-slug: marvin-corea-cvshealth/thin-cvs-notification-java-client
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  lifecycle: experimental
+  owner: devsecops
+  system: notifications

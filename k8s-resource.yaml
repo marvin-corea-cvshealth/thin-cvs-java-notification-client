@@ -1,0 +1,9 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: cvs-notification-client
+spec:
+  git:
+    url: https://github.com/Enterprise-Digital-Reusable-Components/cvs-notification-client.git
+    ref:
+      branch: main

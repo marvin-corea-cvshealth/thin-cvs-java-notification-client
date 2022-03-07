@@ -1,6 +1,7 @@
 # ![image](https://github.com/jmconelogin/jmconelogin/blob/main/custom_logo.png)thin-cvs-java-notification-client 
-The notification health client is a java based service api to send prescription notification emails at CVS.
+The notification health client is Java-based thin client to send prescription notification emails from CVS.
 
+Email text:
 This is a reminder from CVS Mart at Blue Ave. You have prescriptions ready for pickup. Questions? Please call us at (999) 999-9999.
 
 ## Adding cvs-notification-client to your project

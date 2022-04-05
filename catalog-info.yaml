@@ -2,11 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: thin-cvs-notification-java-client
-  title: Thin Java Email Notification Library
+  title: Email Notification Java Client Library
   description: A client library for the email notification API
   tags:
     - java
-    - spring
     - email
     - notifications
     - client
